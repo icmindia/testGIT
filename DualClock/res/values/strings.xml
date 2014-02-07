@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Clock</string>
+    <color name="after_click">#E6E1E1</color>
+    <color name="normal_click">#001C00</color>
+    <color name="Dark">#FF9494</color>
+    <color name="Lite">#FFCACA</color>
+    <color name="text_color">#000</color>
+    <string name="mail_config">Configuration
+    </string>
+</resources>

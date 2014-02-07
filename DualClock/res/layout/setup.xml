@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/ScrollView1"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="fill_parent" android:layout_width="fill_parent" android:background="#001C00">
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_height="fill_parent" android:layout_width="fill_parent">
+        <RelativeLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/relativeLayout8" android:layout_centerHorizontal="true" android:layout_below="@+id/relativeLayout9" android:layout_marginTop="10dip">
+            <RelativeLayout android:background="@drawable/button" android:layout_height="40dip" android:id="@+id/relativeLayout2" android:layout_centerHorizontal="true" android:layout_width="40dip">
+                <TextView android:layout_centerInParent="true" android:layout_height="wrap_content" android:text="12" android:layout_width="wrap_content" android:textStyle="bold" android:typeface="serif" android:textSize="18dip" android:textColor="#fff" android:id="@+id/textView1"></TextView>
+            </RelativeLayout>
+            <RelativeLayout android:background="@drawable/button" android:id="@+id/relativeLayout3" android:layout_toRightOf="@+id/relativeLayout6" android:layout_height="40dip" android:layout_centerVertical="true" android:layout_width="60dip">
+                <TextView android:layout_centerInParent="true" android:text="3" android:textStyle="bold" android:typeface="serif" android:textColor="#fff" android:id="@+id/textView2" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="18dip"></TextView>
+            </RelativeLayout>
+            <RelativeLayout android:background="@drawable/button" android:layout_height="40dip" android:id="@+id/relativeLayout4" android:layout_below="@+id/relativeLayout6" android:layout_width="40dip" android:layout_centerHorizontal="true">
+                <TextView android:text="6" android:textStyle="bold" android:typeface="serif" android:textSize="18dp" android:textColor="#fff" android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"></TextView>
+            </RelativeLayout>
+            <RelativeLayout android:background="@drawable/button" android:layout_width="40dip" android:id="@+id/relativeLayout5" android:layout_toLeftOf="@+id/relativeLayout6" android:layout_height="40dip" android:layout_centerVertical="true">
+                <TextView android:text="9" android:textStyle="bold" android:typeface="serif" android:textSize="18dp" android:textColor="#fff" android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"></TextView>
+            </RelativeLayout>
+            <RelativeLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/relativeLayout6" android:layout_centerInParent="true" android:layout_marginTop="20dip">
+                <AnalogClock android:layout_centerInParent="true" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/analogClock1"></AnalogClock>
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/relativeLayout7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_below="@+id/relativeLayout8">
+            <TextView android:layout_width="wrap_content" android:textStyle="bold" android:id="@+id/time_tv" android:textColor="#fff" android:layout_height="wrap_content" android:typeface="serif" android:layout_centerHorizontal="true" android:text="Time" android:textSize="25dp"></TextView>
+            <TextView android:textStyle="bold" android:id="@+id/date_tv" android:layout_height="wrap_content" android:text="Date" android:layout_marginTop="5dip" android:typeface="serif" android:textColor="#fff" android:layout_centerHorizontal="true" android:layout_width="wrap_content" android:layout_below="@+id/time_tv" android:textSize="20dp"></TextView>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/date_tv" android:textStyle="bold" android:typeface="serif" android:layout_centerHorizontal="true" android:id="@+id/changetimedate_btn" android:textSize="18dp" android:text="Change date and time" android:textColor="#1975FF" android:layout_marginTop="20dp" android:background="@drawable/button"></TextView>
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>
